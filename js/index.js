@@ -138,7 +138,7 @@ var whiteXmas = new function () {
 		
 		// Second part -- add 18 to each.
 		me.showHTML({
-			id: 'dreaming',
+			id: 'dreaming2',
 			start: 29,
 			end:	 32.79,
 			html: '<img src="images/dancing3.gif" /><span class="foreground">I\'m dreaming of a white Christmas...</span>',
@@ -296,7 +296,7 @@ var whiteXmas = new function () {
 		
 		// Second part -- add 18 to each.
 		me.showHTML({
-			id: 'dreaming',
+			id: 'dreaming2',
 			start: 91,
 			end:	 94.79,
 			html: '<img src="images/dancing3.gif" /><span class="foreground">I\'m dreaming of a white Christmas...</span>',
