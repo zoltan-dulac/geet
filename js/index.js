@@ -47,7 +47,9 @@ var whiteXmas = new function () {
 	}
 	
 	me.init = function () {
-		pop = Popcorn("#player");
+		pop = Popcorn("#player", {
+			frameAnimation: true
+		});
 		playerEl = document.getElementById('player');
 		stageEl = document.getElementById('stage');
 		timeTrackerEl = document.getElementById('timeTracker');
@@ -298,15 +300,15 @@ var whiteXmas = new function () {
 		me.showHTML({
 			id: 'dreaming2',
 			start: 91,
-			end:	 94.79,
+			end:	 94.89,
 			html: '<img src="images/dancing3.gif" /><span class="foreground">I\'m dreaming of a white Christmas...</span>',
 			target: "stage"
 		});
 		
 		me.showHTML({
 			id: 'oi',
-			start: 94.8,
-			end:	 95.59,
+			start: 94.9,
+			end:	 95.69,
 			html: '<img src="images/oi.gif" /><span class="foreground">',
 			target: "stage"
 		});

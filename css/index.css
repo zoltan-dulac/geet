@@ -5,13 +5,20 @@ body {
 }
 
 audio {
-	xdisplay: none;
 	position: absolute;
-	width: 100%;
-	top: 20px;
-	left: 20px;
+	width: 90%;
+	bottom: 20px;
+	left: calc( 50vw - 45% );
 	z-index: 20;
+	margin: 0 auto;
+	opacity: 0;
+	transition: opacity 250ms ease-in-out;
 }
+
+audio:hover, audio:focus {
+	opacity: 1;
+}
+
 #stage {
 	transform: translateZ(0);
 	font-family: "PunkKid", "Times New Roman", "Times Roman", sans-serif;
