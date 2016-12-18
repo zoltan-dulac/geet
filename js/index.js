@@ -77,7 +77,7 @@ var whiteXmas = new function () {
 			id: 'guitar',
 			start: 6.65,
 			end:	 8.94,
-			html: '<span class="foreground">And The Twenty 6 Hundred</span>',
+			html: '<span class="foreground">And Twenty6Hundred</span>',
 			target: "stage"
 		});
 		
