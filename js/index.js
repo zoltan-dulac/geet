@@ -99,7 +99,7 @@ var whiteXmas = new function () {
 			id: 'oi',
 			start: 14.8,
 			end:	 15.59,
-			html: '<img src="images/oi.gif" /><span class="foreground"><span>Oi!</span><span>Oi!</span><span>Oi!</span></span>',
+			html: '<img src="images/oi.gif" /><span class="foreground">',
 			target: "stage"
 		});
 		
@@ -149,7 +149,7 @@ var whiteXmas = new function () {
 			id: 'oi',
 			start: 32.8,
 			end:	 33.59,
-			html: '<img src="images/oi.gif" /><span class="foreground"><span>Oi!</span><span>Oi!</span><span>Oi!</span></span>',
+			html: '<img src="images/oi.gif" /><span class="foreground">',
 			target: "stage"
 		});
 		
@@ -257,7 +257,7 @@ var whiteXmas = new function () {
 			id: 'oi',
 			start: 77.4,
 			end:	 78.19,
-			html: '<img src="images/oi.gif" /><span class="foreground"><span>Oi!</span><span>Oi!</span><span>Oi!</span></span>',
+			html: '<img src="images/oi.gif" /><span class="foreground">',
 			target: "stage"
 		});
 		
