@@ -147,8 +147,8 @@ var whiteXmas = new function () {
 		
 		me.showHTML({
 			id: 'oi',
-			start: 32.8,
-			end:	 33.59,
+			start: 32.7,
+			end:	 33.49,
 			html: '<img src="images/oi.gif" /><span class="foreground">',
 			target: "stage"
 		});
@@ -156,7 +156,7 @@ var whiteXmas = new function () {
 		// http://imgur.com/tbIq2nD
 		me.showHTML({
 			id: 'write',
-			start: 33.6,
+			start: 33.5,
 			end:	 37.1,
 			html: '<img src="images/write2.gif" /><span class="foreground">With every Christmas card I write</span>',
 			target: "stage"
