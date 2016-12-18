@@ -130,7 +130,7 @@ var whiteXmas = new function () {
 		
 		me.showHTML({
 			id: 'sleighbells',
-			start: 23.95,
+			start: 23.75,
 			end:	 28.95,
 			html: '<img src="images/sleigh2.gif" /><span class="foreground">to hear sleighbells in the snow</span>',
 			target: "stage"
@@ -164,7 +164,7 @@ var whiteXmas = new function () {
 		
 		me.showHTML({
 			id: 'merry',
-			start: 37.15,
+			start: 36.8,
 			end:	 41.9,
 			html: '<img src="images/flapper-radio.gif" /><span class="foreground">May your days be merry and bright!</span>',
 			target: "stage"
@@ -198,7 +198,7 @@ var whiteXmas = new function () {
 		
 		me.showHTML({
 			id: 'passed-out',
-			start: 52.05,
+			start: 51.8,
 			end:	 55.5,
 			html: '<img src="images/sleeping1.gif" />',
 			target: "stage"
@@ -238,7 +238,7 @@ var whiteXmas = new function () {
 		
 		me.showHTML({
 			id: 'nailed',
-			start: 68.71,
+			start: 68.51,
 			end:	 73.5,
 			html: '<img src="images/dancing2.gif" />',
 			target: "stage"
@@ -288,7 +288,7 @@ var whiteXmas = new function () {
 		
 		me.showHTML({
 			id: 'sleighbells',
-			start: 86.95,
+			start: 86.55,
 			end:	 90.95,
 			html: '<img src="images/sleigh2.gif" /><span class="foreground">to hear sleighbells in the snow</span>',
 			target: "stage"
@@ -322,8 +322,8 @@ var whiteXmas = new function () {
 		
 		me.showHTML({
 			id: 'merry',
-			start: 100.15,
-			end:	 104.9,
+			start: 100,
+			end:	 104.74,
 			html: '<img src="images/flapper-radio.gif" /><span class="foreground">May your days be merry and bright!</span>',
 			target: "stage"
 		});
@@ -332,7 +332,7 @@ var whiteXmas = new function () {
 		
 		me.showHTML({
 			id: 'tohear',
-			start: 104.95,
+			start: 104.75,
 			end:	 109.8,
 			html: '<img src="images/santa-piano.gif" /><span class="foreground">And may all your Christmases be white!</span>',
 			target: "stage"
