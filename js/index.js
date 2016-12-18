@@ -255,15 +255,15 @@ var whiteXmas = new function () {
 		
 		me.showHTML({
 			id: 'oi',
-			start: 77.4,
-			end:	 78.19,
+			start: 77.2,
+			end:	 77.99,
 			html: '<img src="images/oi.gif" /><span class="foreground">',
 			target: "stage"
 		});
 		
 		me.showHTML({
 			id: 'justlike',
-			start: 78.20,
+			start: 78,
 			end:	 82.1,
 			html: '<img src="images/dancing.gif" /><span class="foreground">Just like the ones I used to know</span>',
 			target: "stage"
