@@ -1,0 +1,129 @@
+@import "fonts/punk-kid/stylesheet.css";
+
+body {
+	background: black;
+}
+
+audio {
+	position: absolute;
+	width: 100%;
+	top: 20px;
+	left: 20px;
+	z-index: 20;
+}
+#stage {
+	transform: translateZ(0);
+	font-family: "PunkKid", "Times New Roman", "Times Roman", sans-serif;
+	font-size: 7vmin;
+	text-align: center;
+	height: 100vh;
+	overflow: hidden;
+}
+#stage > div.animate-in {
+	animation: animation-in ease-in-out 1ms;
+}
+
+#stage > div.animate-out {
+	animation: animation-out ease-in-out 1ms;
+}
+
+#stage > div#guitar-solo.animate-out {
+	animation: animation-out ease-in-out 1000ms;
+}
+
+#stage > div#credits1.animate-in,
+#stage > div#credits2.animate-in,
+#stage > div#credits3.animate-in {
+	animation: credits-animation-in ease-in-out 1000ms;
+}
+
+
+#stage img {
+	position: relative;
+	top: 0;
+	left: 0;
+	/* width: 100vw; */
+	height: 100vh;
+	z-index: 0;
+}
+
+#stage img.reset {
+	height: auto;
+	position: absolute;
+	top: auto;
+	left: auto;
+}
+
+#stage img.logo-2600 {
+	left: 52vw;
+	top: 60vh;
+}
+
+#stage img.logo-cp {
+	right: 52vw;
+	top: 60vh;
+}
+
+#stage img.small {
+	width: 50vw;
+	height: 50vw;
+	top: 10vh;
+	left: 25vw;
+	position: absolute;
+	background: white;
+	padding: 20px;
+}
+
+.foreground {
+	position: absolute;
+	z-index: 1;
+	text-align: center;
+	bottom: 17vw;
+	color: white;
+	text-shadow: 1vw 1vw 0 black;
+	width: 100vw;
+	left: 0;
+	padding: 0px 11vw;
+	box-sizing: border-box;
+}
+
+#credits1 .foreground {
+	bottom: auto;
+	top: 40vh;
+}
+
+#dreaming {
+	bottom: 20vw;
+}
+
+@keyframes animation-in {
+	0% {
+		opacity: 0;
+	}
+	
+	100 {
+		opacity: 100%;
+	}
+}
+
+@keyframes credits-animation-in {
+	0% {
+		opacity: 0;
+		transform: translateY(-2vh);
+	}
+	
+	100 {
+		opacity: 100%;
+		transform: translateY(0);
+	}
+}
+
+@keyframes animation-out {
+	0% {
+		opacity: 100%;
+	}
+	
+	100% {
+		opacity: 0;
+	}
+}
