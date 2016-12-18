@@ -66,10 +66,10 @@ audio {
 }
 
 #stage img.small {
-	width: 50vw;
-	height: 50vw;
-	top: 0vh;
-	left: 25vw;
+	width: 25vw;
+	height: 25vw;
+	top: 9vh;
+	left: 37vw;
 	position: absolute;
 	background: white;
 	padding: 20px;

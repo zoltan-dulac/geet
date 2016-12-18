@@ -122,7 +122,7 @@ var whiteXmas = new function () {
 		me.showHTML({
 			id: 'children',
 			start: 21.65,
-			end:	 23.9,
+			end:	 23.74,
 			html: '<img src="images/children-fighting.gif" /><span class="foreground">and children listen</span>',
 			target: "stage"
 		});
@@ -157,7 +157,7 @@ var whiteXmas = new function () {
 		me.showHTML({
 			id: 'write',
 			start: 33.5,
-			end:	 37.1,
+			end:	 41.89,
 			html: '<img src="images/write2.gif" /><span class="foreground">With every Christmas card I write</span>',
 			target: "stage"
 		});
@@ -280,7 +280,7 @@ var whiteXmas = new function () {
 		me.showHTML({
 			id: 'children',
 			start: 84.65,
-			end:	 86.9,
+			end:	 86.54,
 			html: '<img src="images/children-fighting.gif" /><span class="foreground">and children listen</span>',
 			target: "stage"
 		});
@@ -315,7 +315,7 @@ var whiteXmas = new function () {
 		me.showHTML({
 			id: 'write',
 			start: 95.6,
-			end:	 100.1,
+			end:	 99.99,
 			html: '<img src="images/write3.gif" /><span class="foreground">With every Christmas card I write</span>',
 			target: "stage"
 		});
