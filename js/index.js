@@ -307,7 +307,7 @@ var whiteXmas = new function () {
 			id: 'oi',
 			start: 94.8,
 			end:	 95.59,
-			html: '<img src="images/oi.gif" /><span class="foreground"><span>Oi!</span><span>Oi!</span><span>Oi!</span></span>',
+			html: '<img src="images/oi.gif" /><span class="foreground">',
 			target: "stage"
 		});
 		
