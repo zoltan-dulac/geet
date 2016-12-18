@@ -99,6 +99,10 @@ audio {
 	top: 40vh;
 }
 
+#treetop .foreground {
+	bottom: 20vh;
+}
+
 #dreaming {
 	bottom: 20vw;
 }
